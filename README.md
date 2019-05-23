@@ -1,3 +1,5 @@
+[![pipeline status](https://gitlab.com/kmbn/gitlab-runner-docker-compose/badges/master/pipeline.svg)](https://gitlab.com/kmbn/gitlab-runner-docker-compose/commits/master)
+
 # A GitLab Runner Instance that Can Run Docker and docker-compose in a GitLab CI/CD Pipeline
 To use Docker within a GitLab CI pipeline (e.g., to run `docker build` or `docker push`) you need a private GitLab Runner that uses an image containing Docker. The safest approach is to configure the runner so that it has access to the host's Docker socket. For additional safety and convenience, we can run the runner in its own container.
 

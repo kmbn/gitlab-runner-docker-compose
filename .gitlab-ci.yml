@@ -1,0 +1,9 @@
+image: kmbn/docker-compose
+
+stages:
+  - Test
+
+test:
+  stage: Test
+  script:
+    - make test
